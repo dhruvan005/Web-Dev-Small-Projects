@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+  
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 254, 254);
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+:root {
+    --background: #6a6666c6;
+
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    
+}
+
+span {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid rgb(93, 75, 75);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.canvas {
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+
+}
+.canvas h1 ,h2{
+  
+    margin:50px;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+#gray {
+    background: gray;
+}
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+    
+}
