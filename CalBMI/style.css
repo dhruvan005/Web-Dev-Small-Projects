@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+    font-weight: 1000;
+    font-style: normal;
+
+}
+
+:root {
+    --background: #6a6666c6;
+
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    
+}
+
+span {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid rgb(93, 75, 75);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
