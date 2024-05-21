@@ -1,5 +1,5 @@
 let randomNum = parseInt(Math.random() * 100 + 1)
-// console.log(randomNum);
+console.log(randomNum);
 
 const userInput = document.querySelector('#guessField')
 const submit = document.querySelector('#subt')
@@ -67,6 +67,7 @@ function checkguess(guess) {
 
 
 function displayGuess(guess) {
+
     userInput.value = ''
     guessSlot.innerHTML += `${guess}`
     numGuess++ ;
