@@ -95,6 +95,7 @@ function newGame() {
         guessSlot.innerHTML = '';
         remaining.innerHTML = `${11 - numGuess} `;
         userInput.removeAttribute('disabled');
+        lowOrHi.innerHTML=''
         startOver.removeChild(p);
         dispalyMessage.innerHTML = ''
         playGame = true;
